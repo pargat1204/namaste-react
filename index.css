@@ -1,0 +1,174 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    color: black;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    /* box-shadow: 0 0px 0px #0003, 0 0px 10px #00000030; */
+    z-index: 1000;
+}
+
+.logo>img {
+    height: 100%;
+    width: 30%;
+}
+
+.nav-items {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    font-size: 14px;
+    ;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 0;
+}
+
+.main {
+    padding: 0px 100px;
+    width: 100%;
+    padding: 7%;
+    background-color: #f4f4f4;
+    ;
+}
+
+.search {
+    margin-bottom: 30px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.res-container {
+    height: 100%;
+    padding: 10px 10px 30px 10px;
+    /* background-color: coral; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-outer {
+    width: 260px;
+    height: 280px;
+    overflow: hidden;
+    padding-bottom: 35px;
+    cursor: pointer;
+}
+
+.card {
+    width: 260px;
+    height: 280px;
+    overflow: hidden;
+    padding-bottom: 35px;
+    transition: width 0.1s, height 0.1s;
+}
+
+.card:hover {
+    width: 245px;
+    height: 265px;
+}
+
+.res-img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.res-img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details {
+    padding-left: 15px;
+}
+
+.res-name {
+    margin: 0px;
+    font-family: Basis_Grotesque_Pro_Bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-line-clamp: 1;
+    -moz-box-orient: vertical;
+}
+
+.rating {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+}
+
+.cuisines {
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    ;
+    color: rgba(2, 6, 12, 0.6);
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -moz-box-orient: vertical;
+    overflow-wrap: break-word;
+}
+
+.locality {
+    color: rgba(2, 6, 12, 0.6);
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    font-weight: 300;
+    background-color: #02060c;
+}
