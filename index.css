@@ -141,7 +141,8 @@ body {
 }
 
 .cuisines {
-    color: rgba(2, 6, 12, 0.6);
+    -webkit-font-smoothing: antialiased;
+    font-family: Basis_Grotesque_Pro;
     font-weight: 200;
     font-size: 16px;
     line-height: 19px;
@@ -150,9 +151,9 @@ body {
     overflow: hidden;
     width: 100%;
     display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -moz-box-orient: vertical;
     overflow-wrap: break-word;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .locality {
