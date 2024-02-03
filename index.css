@@ -29,7 +29,7 @@ body {
     z-index: 1000;
 }
 
-.logo>img {
+.logo-img {
     height: 100%;
     width: 30%;
 }
@@ -62,8 +62,7 @@ body {
 .main {
     padding: 0px 100px;
     width: 100%;
-    padding: 7%;
-    background-color: #f4f4f4;
+    padding: 1% 7%;
 }
 
 .btns {
@@ -227,4 +226,18 @@ body {
     height: 300px;
     font-weight: 300;
     background-color: #02060c;
+}
+
+.nav-item {
+    cursor: pointer;
+    padding: 20px;
+}
+
+.nav-item > .item {
+    text-decoration: none;
+}
+
+.page {
+    padding-top: 100px;
+    background-color: #f4f4f4;
 }

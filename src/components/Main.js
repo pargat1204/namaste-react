@@ -15,6 +15,7 @@ const Main = () => {
         setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
         setFilteredResataurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     }
+    console.log(filteredResataurants.length);
     return (
         <div className='main'>
             <div className='btns'>
